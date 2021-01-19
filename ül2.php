@@ -3,11 +3,11 @@
 $i = 25;
 $j = 17;
 
-echo $i. "+" .$j. "=" .($i + $j)."<br>";
-echo $i. "-" .$j. "=" .($i - $j)."<br>";
-echo $i. "*" .$j. "=" .($i * $j)."<br>";
-echo $i. "/" .$j. "=" .($i / $j)."<br>";
-echo $i. "%" .$j. "=" .($i % $j)."<br>";
+echo $i . "+" . $j . "=" . ($i + $j) . "<br>";
+echo $i . "-" . $j . "=" . ($i - $j) . "<br>";
+echo $i . "*" . $j . "=" . ($i * $j) . "<br>";
+echo $i . "/" . $j . "=" . ($i / $j) . "<br>";
+echo $i . "%" . $j . "=" . ($i % $j) . "<br>";
 
 $mm = 1412;
 $cm = $mm / 10;
@@ -28,4 +28,4 @@ $ymbermoot = $a + $b + sqrt(($a * $a) + ($b * $b));
 $vormintatud_pindala = sprintf('%d', $pindala);
 $vormintatud_ymbermoot = sprintf('%d', $ymbermoot);
 
-echo "Täisnurksel kolmnurgal mille külg a on " .$a. " ja külg b on " .$b. " on pindala " .$vormintatud_pindala. " ja ümbermõõt ".$vormintatud_ymbermoot;
+echo "Täisnurksel kolmnurgal mille külg a on " . $a . " ja külg b on " . $b . " on pindala " . $vormintatud_pindala . " ja ümbermõõt " . $vormintatud_ymbermoot;
